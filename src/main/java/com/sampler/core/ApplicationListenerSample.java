@@ -5,8 +5,8 @@ import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.utils.Logger;
 
-public class ApplicationListenerSampler implements ApplicationListener {
-    private static final Logger LOGGER = new Logger(ApplicationListenerSampler.class.getName(), Logger.DEBUG);
+public class ApplicationListenerSample implements ApplicationListener {
+    private static final Logger LOGGER = new Logger(ApplicationListenerSample.class.getName(), Logger.DEBUG);
 
     private boolean renderInterrupted = true;
 
